@@ -1,0 +1,53 @@
+h1.title {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: #04AA6D;
+    border-radius: 1vw;
+    padding: 1%;
+  }
+  
+  input,
+  button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5vw;
+    border: none;
+    border-bottom: solid black;
+    padding: 1%;
+    font-size: 120%;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  #rootWord {
+    text-transform: capitalize;
+    color: white;
+  }
+  
+  #message {
+    background-color: white;
+    padding: 1%;
+    border-radius: 0.5vw;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .score {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5vw;
+    border: none;
+    border-bottom: solid black;
+    padding: 1%;
+    font-size: 120%;
+    font-weight: bold;
+  }
